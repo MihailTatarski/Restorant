@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="engl">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatable" content="IE=edge">
+    <title>Assigntment Module 3</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Molle:ital@1&family=Montserrat:ital@1&family=Pinyon+Script&display=swap" rel="stylesheet">
+</head>
+<body class="gradient">
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+        <a href="index.html"><img src="css/images/logo.png" class="logo" alt="logo"> <h1 id="LCC">, LCC</h1></a> 
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Menu</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="index.html">Home</a>
+              <a href="chicken.html" class="selected">Chicken</a>
+              <a href="beef.html">Beef</a>
+              <a href="sushi.html">Sushi</a>
+            </div>
+          </div>
+            <script>
+            function myFunction() {
+              document.getElementById("myDropdown").classList.toggle("show");
+            }
+            
+            window.onclick = function(event) {
+              if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                  var openDropdown = dropdowns[i];
+                  if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                  }
+                }
+              }
+            }
+            </script>
+        </nav>         
+        </header>
+
+        <h1 class="our-menu">Chicken</h1>
+
+        <div class="container">
+                <p> Lorem ipsum dolor sit amet, eos tale vide verear in, ut eos soluta sensibus efficiendi.
+                     Ex autem summo molestie pri, alii purto bonorum an sea, ei quo case disputando conclusionemque.
+                      Mei virtute scaevola ea. Dolor bonorum noluisse sed at, aliquando elaboraret an vis.Lorem ipsum dolor sit amet, eos tale vide verear in, ut eos soluta sensibus efficiendi.
+                      Ex autem summo molestie pri, alii purto bonorum an sea, ei quo case disputando conclusionemque.
+                       Mei virtute scaevola ea. Dolor bonorum noluisse sed at, aliquando elaboraret an vis.Lorem ipsum dolor sit amet, eos tale vide verear in, ut eos soluta sensibus efficiendi.
+                       Ex autem summo molestie pri, alii purto bonorum an sea, ei quo case disputando conclusionemque.
+                        Mei virtute scaevola ea. Dolor bonorum noluisse sed at, aliquando elaboraret an vis. Lorem ipsum dolor sit amet, eos tale vide verear in, ut eos soluta sensibus efficiendi.
+                        Ex autem summo molestie pri, alii purto bonorum an sea, ei quo case disputando conclusionemque.
+                         Mei virtute scaevola ea. Dolor bonorum noluisse sed at, aliquando elaboraret an vis.Lorem ipsum dolor sit amet, eos tale vide verear in, ut eos soluta sensibus efficiendi.
+                         Ex autem summo molestie pri, alii purto bonorum an sea, ei quo case disputando conclusionemque.
+                          Mei virtute scaevola ea. Dolor bonorum noluisse sed at, aliquando elaboraret an vis.Lorem ipsum dolor sit amet, eos tale vide verear in, ut eos soluta sensibus efficiendi.
+                          Ex autem summo molestie pri, alii purto bonorum an sea, ei quo case disputando conclusionemque.
+                           Mei virtute scaevola ea. Dolor bonorum noluisse sed at, aliquando elaboraret an vis. </p>
+        </div>
+
+    </body>    
+    </html>
